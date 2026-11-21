@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#1a1410"/>
+  
+  <!-- Outer riveted plate frame -->
+  <path d="M 28 36 L 228 36 L 228 220 L 28 220 Z" fill="none" stroke="#8b3a1e" stroke-width="3"/>
+  <path d="M 34 42 L 222 42 L 222 214 L 34 214 Z" fill="none" stroke="#d4a03c" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Rivets on frame -->
+  <circle cx="28" cy="36" r="3" fill="#d4a03c"/>
+  <circle cx="228" cy="36" r="3" fill="#d4a03c"/>
+  <circle cx="28" cy="220" r="3" fill="#d4a03c"/>
+  <circle cx="228" cy="220" r="3" fill="#d4a03c"/>
+  <circle cx="128" cy="42" r="2.5" fill="#d4a03c" opacity="0.8"/>
+  <circle cx="128" cy="214" r="2.5" fill="#d4a03c" opacity="0.8"/>
+  
+  <!-- Distressed texture scratches -->
+  <path d="M 50 60 L 70 58 M 180 52 L 200 55 M 45 200 L 68 198 M 190 205 L 210 202" stroke="#8b3a1e" stroke-width="1" opacity="0.5"/>
+  
+  <!-- HORSESHOE - main weathered form -->
+  <path d="M 128 78 
+           C 90 78, 66 100, 66 146
+           C 66 172, 82 190, 104 198
+           L 104 178
+           C 90 172, 82 162, 82 146
+           C 82 112, 100 94, 128 94
+           C 156 94, 174 112, 174 146
+           C 174 162, 166 172, 152 178
+           L 152 198
+           C 174 190, 190 172, 190 146
+           C 190 100, 166 78, 128 78 Z" 
+        fill="none" stroke="#e8dcc0" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Horseshoe inner highlight -->
+  <path d="M 128 86 
+           C 96 86, 74 106, 74 146
+           C 74 168, 88 184, 106 190
+           L 106 182
+           C 92 176, 84 164, 84 146
+           C 84 114, 100 96, 128 96
+           C 156 96, 172 114, 172 146
+           C 172 164, 164 176, 150 182
+           L 150 190
+           C 168 184, 182 168, 182 146
+           C 182 106, 160 86, 128 86 Z" 
+        fill="none" stroke="#d4a03c" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Horseshoe nail holes (dark recesses) -->
+  <ellipse cx="88" cy="120" rx="4" ry="5" fill="#1a1410"/>
+  <ellipse cx="88" cy="168" rx="4" ry="5" fill="#1a1410"/>
+  <ellipse cx="168" cy="120" rx="4" ry="5" fill="#1a1410"/>
+  <ellipse cx="168" cy="168" rx="4" ry="5" fill="#1a1410"/>
+  <ellipse cx="128" cy="88" rx="4" ry="4" fill="#1a1410"/>
+  
+  <!-- Horseshoe heel calks (bottom ends) -->
+  <path d="M 100 198 L 108 208 L 112 200" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1.5"/>
+  <path d="M 156 198 L 148 208 L 144 200" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1.5"/>
+  
+  <!-- CROSSED WRENCH - diagonal, going bottom-left to top-right -->
+  <g transform="translate(128,140) rotate(35)">
+    <path d="M -78 -6 L -20 -6 L -20 -12 L -14 -12 L -14 12 L -20 12 L -20 6 L 60 6 L 60 -4 L 68 -4 L 74 0 L 68 4 L 60 4 L 60 12 L -20 12" 
+          fill="#8b3a1e" stroke="#e8dcc0" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- CROSSED WRENCH - diagonal, going top-left to bottom-right -->
+  <g transform="translate(128,140) rotate(-35)">
+    <path d="M -78 -6 L -20 -6 L -20 -12 L -14 -12 L -14 12 L -20 12 L -20 6 L 60 6 L 60 -4 L 68 -4 L 74 0 L 68 4 L 60 4 L 60 12 L -20 12" 
+          fill="#8b3a1e" stroke="#e8dcc0" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- REVOLVER CYLINDER - centered over crossing -->
+  <circle cx="128" cy="140" r="22" fill="#1a1410" stroke="#d4a03c" stroke-width="2.5"/>
+  <circle cx="128" cy="140" r="16" fill="none" stroke="#e8dcc0" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Cylinder chambers -->
+  <circle cx="128" cy="124" r="4" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1"/>
+  <circle cx="140" cy="132" r="4" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1"/>
+  <circle cx="140" cy="148" r="4" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1"/>
+  <circle cx="128" cy="156" r="4" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1"/>
+  <circle cx="116" cy="148" r="4" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1"/>
+  <circle cx="116" cy="132" r="4" fill="#8b3a1e" stroke="#e8dcc0" stroke-width="1"/>
+  
+  <!-- Cylinder center pin -->
+  <circle cx="128" cy="140" r="5" fill="#d4a03c"/>
+  <circle cx="128" cy="140" r="2.5" fill="#1a1410"/>
+  
+  <!-- Center rivet overlay -->
+  <circle cx="128" cy="140" r="8" fill="none" stroke="#8b3a1e" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Rivet details on wrench handles -->
+  <circle cx="60" cy="152" r="2" fill="#d4a03c"/>
+  <circle cx="196" cy="128" r="2" fill="#d4a03c"/>
+  
+  <!-- Wrench jaw teeth -->
+  <path d="M 62 134 L 56 136 L 62 138 M 62 142 L 56 144 L 62 146" stroke="#e8dcc0" stroke-width="1.5" fill="none"/>
+  <path d="M 194 134 L 200 136 L 194 138 M 194 142 L 200 144 L 194 146" stroke="#e8dcc0" stroke-width="1.5" fill="none"/>
+  
+  <!-- Engraved distress marks on horseshoe -->
+  <path d="M 100 110 L 106 114 M 150 110 L 156 114 M 98 180 L 104 176 M 152 180 L 158 176" 
+        stroke="#8b3a1e" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Small wordmark -->
+  <text x="128" y="232" text-anchor="middle" font-family="Courier New, monospace" font-size="9" fill="#8b3a1e" letter-spacing="3" font-weight="bold">RDR2 MODMENU</text>
+  
+  <!-- Bottom accent line -->
+  <path d="M 60 224 L 196 224" stroke="#8b3a1e" stroke-width="1" opacity="0.6"/>
+</svg>
