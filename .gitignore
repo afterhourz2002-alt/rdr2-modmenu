@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+*.log
+*.dmp
+config/menu.local.toml
+offsets/*.json
+.vscode/
+.idea/
