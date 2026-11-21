@@ -1,0 +1,9 @@
+process_name = "RDR2.exe"
+game_build = "1491.50"
+poll_hz = 30
+features = ["godmode", "noclip", "money_drop", "vehicle_spawn"]
+
+[overlay]
+font = "consolas"
+scale = 1.15
+toggle_key = "F5"
