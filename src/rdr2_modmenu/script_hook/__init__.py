@@ -1,0 +1,1 @@
+# Lua-side script hook lives here; python package is a marker for setuptools.
