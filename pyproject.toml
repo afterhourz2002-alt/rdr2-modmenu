@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rdr2-modmenu"
+version = "0.9.4"
+description = "External mod menu pipeline for Red Dead Redemption 2 (single-player only)"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "rdr2-modmenu contributors" }]
+dependencies = [
+    "pymem>=1.12.0",
+    "pyimgui>=2.0.0",
+    "pywin32>=306",
+    "tomli>=2.0.1; python_version < '3.11'",
+]
+
+[project.scripts]
+rdr2-modmenu = "rdr2_modmenu.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
